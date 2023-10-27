@@ -4,5 +4,6 @@
  int main () {
    int i;
     cout<<"First Program"<<endl;
+    cout<<"First Program"<<endl;
     return 0;
  }
