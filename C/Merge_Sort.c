@@ -1,4 +1,4 @@
-// Merge Sort
+// Merge Sort Example
 
 #include <stdio.h>
 
