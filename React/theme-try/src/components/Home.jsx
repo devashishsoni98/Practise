@@ -1,9 +1,19 @@
 import React from "react";
+import useLocalStorage from "use-local-storage";
 
 const Home = () => {
+
+  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light');
+
+  const switchTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme); 
+  }
+
   return (
     <>
-      <div className="main-body">
+      <div className="main-body"  data-theme={theme}>
+      <button onClick={switchTheme}>Change Theme</button>
         <div className="h1-div">
         <h1>Sample Heading</h1>
         </div>

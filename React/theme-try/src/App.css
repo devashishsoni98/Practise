@@ -1,0 +1,84 @@
+:root {
+  --text: #070b11;
+  --background: #f9fbfd;
+  --primary: #4076d6;
+  --secondary: #89adef;
+  --accent: #b9ff23;
+}
+[data-theme="dark"] {
+  --text: #edf1f8;
+  --background: #030508;
+  --primary: #285fbd;
+  --secondary: #103375;
+  --accent: #b9ff23;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  padding: 1.5rem;
+  background-color: var(--background);
+  transition: all .8s;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: var(--accent);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--text);
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+p {
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+  font-size: 1.5rem;
+  margin-bottom: 3.5rem;
+  color: var(--text);
+}
+
+img {
+  width: 95%;
+  display: block;
+  margin: auto auto;
+}
+
+.h1-div {
+  background-color: var(--primary);
+  margin: auto auto;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+}
+
+.h2-div {
+  background-color: var(--secondary);
+  margin: auto auto;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+}
