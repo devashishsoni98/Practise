@@ -11,7 +11,7 @@ const words = [
     'goodbye',
     'the',
     'something',
-    'same',
+    'other',
     'some-word',
 ];
 
