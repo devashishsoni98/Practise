@@ -2,20 +2,19 @@ import React from "react";
 import useLocalStorage from "use-local-storage";
 
 const Home = () => {
-
-  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light');
+  const [theme, setTheme] = useLocalStorage("theme" ? "dark" : "light");
 
   const switchTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme); 
-  }
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+  };
 
   return (
     <>
-      <div className="main-body"  data-theme={theme}>
-      <button onClick={switchTheme}>Change Theme</button>
+      <div className="main-body" data-theme={theme}>
+        <button onClick={switchTheme}>Change Theme</button>
         <div className="h1-div">
-        <h1>Sample Heading</h1>
+          <h1>Sample Heading</h1>
         </div>
         <div className="h2-div">
           <h2>Smaller heading</h2>
@@ -56,6 +55,16 @@ const Home = () => {
           itaque est quisquam? Assumenda animi nemo, aliquam qui debitis minus
           aspernatur modi consequatur, placeat porro, voluptates corporis enim!
           Suscipit, dicta?
+        </p>
+        <br />
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+          sapiente reprehenderit accusamus perspiciatis, quod voluptate.
+          Temporibus alias mollitia sit sapiente recusandae hic atque accusamus
+          facere rerum ipsam autem adipisci, ut nesciunt accusantium earum quod,
+          minima, molestiae explicabo! Praesentium voluptatibus harum
+          consequatur possimus ratione atque suscipit?
         </p>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlst33n37g93m8liDygxtpqoPise6krFHX8g&usqp=CAU"
