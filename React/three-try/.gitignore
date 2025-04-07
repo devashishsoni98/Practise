@@ -1,5 +1,5 @@
-*.exe
-
+# Dependency directories
+node_modules/
 
 # Logs
 logs
