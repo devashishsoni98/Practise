@@ -31,7 +31,7 @@ int main(){
         }
     }
 
-    cout<<"index are :";
+    cout<<"index are :"
     for(int i=0;i<res.size();i++){
         cout<<res[i];
    }
